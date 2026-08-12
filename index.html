@@ -96,10 +96,10 @@ nav a:hover::after{width:100%;}
 /* ---------- QUOTE / TRUSTED ---------- */
 .trusted{background:var(--blue-50);}
 .trusted-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:60px;align-items:center;}
-.trusted-avatar{position:relative;width:260px;height:260px;margin:0 auto;}
+.trusted-avatar{position:relative;width:400px;height:400px;margin:0 auto;}
 .trusted-avatar .ring{position:absolute;inset:-14px;border-radius:50%;border:3px dashed var(--yellow);animation:spin 18s linear infinite;}
 @keyframes spin{to{transform:rotate(360deg);}}
-.trusted-avatar .disc{width:100%;height:100%;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-lg);}
+.trusted-avatar .disc{width:100%;height:100%;border-radius:50%;overflow:hidden;box-shadow:var(--shadow-lg);background:var(--blue-100);padding:14px;box-sizing:border-box;}
 .quote-mark{font-family:'Poppins';font-size:60px;color:var(--blue-700);opacity:.35;line-height:.5;}
 .trusted h2{font-size:clamp(26px,3.4vw,36px);margin:6px 0 18px;}
 .trusted p{color:var(--gray-600);margin-bottom:14px;}
